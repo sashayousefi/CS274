@@ -1,0 +1,22 @@
+import numpy as np
+list1 = [3.2220497713907355, 1.7388538315226747, 2.5143774829951955, 3.039108514048538, 3.040363911745784, 3.117059401899967, \
+2.965865073096647, 3.7173428651636056, 1.5704446242804189, 2.6330438477907108]
+list2 = [4.478729987692818, 3.981147617742744, 4.994987158584439, 3.696263081908175, 2.561068240204982, 4.279902538287884, 4.498191374437988, 
+3.9669124112852496, 5.002227300139187, 2.440322894301232]
+print("1F4W")
+print('mean:')
+print(np.mean(list1))
+print('sd:')
+print(np.std(list1))
+print('min:')
+print(min(list1))
+print("1ubq")
+print('mean:')
+print(np.mean(list2))
+print('sd:')
+print(np.std(list2))
+print('min:')
+print(min(list2))
+print('max:')
+print(max(list2))
+#10 is lowest energy for ubq, #7 is high energy for UBQ
